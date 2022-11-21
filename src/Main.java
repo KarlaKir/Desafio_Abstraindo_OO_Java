@@ -17,16 +17,21 @@ public class Main {
         curso2.setDescricao("Descrição do Curso JS");
         curso2.setCargaHorária(6);
 
-        Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("Mentoria Java");
-        mentoria.setDescricao("Descrição Mentoria Java");
-        mentoria.setData(LocalDate.now());
+        Mentoria mentoria1 = new Mentoria();
+        mentoria1.setTitulo("Mentoria Java");
+        mentoria1.setDescricao("Descrição Mentoria Java");
+        mentoria1.setData(LocalDate.now());
+
+        Mentoria mentoria2 = new Mentoria();
+        mentoria2.setTitulo("Mentoria JS");
+        mentoria2.setDescricao("Descrição Mentoria SJ");
+        mentoria2.setData(LocalDate.now());
 
 
         System.out.println(curso1);
         System.out.println(curso2);
-        System.out.println(mentoria);
-
+        System.out.println(mentoria1);
+        System.out.println(mentoria2);
 
     }
 }
